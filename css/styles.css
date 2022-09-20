@@ -1,3 +1,14 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 :root {
   --primary-text-color: #757575;
   --accent-color: #2196f3;
@@ -13,6 +24,8 @@ body {
 
 .list {
   list-style: none;
+  margin: 0;
+  padding-left: 0;
 }
 .link {
   text-decoration: none;
@@ -221,7 +234,18 @@ p {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+  outline: 2px solid tomato;
 
+}
+.header {
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+.nav,
+.site-nav,
+.contacts {
+  display: flex;
+  flex-wrap: wrap;
 }
 
 /* Колір основного текста #212121 */
