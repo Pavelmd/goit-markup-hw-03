@@ -136,7 +136,14 @@ body {
   font-size: 16px;
   line-height: 1.62;
   letter-spacing: 0.02em;
-}
+
+  border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 50px;
+    display: inline-block;
+      align-items: center;
+      text-align: center;
+  }
 .button-p:hover,
 .button-p:focus {
   color: var(--secondary-text-color);
@@ -342,7 +349,25 @@ p {
 .comand-name {
   margin-bottom: 10px;
 }
+.button-list {
+  display: flex;
+  justify-content: center;
+}
 
+.button-list .item:not(:last-child){
+  margin-right: 8px;
+}
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.project-list .item {
+  width: calc((100% - 60px)/3);
+  margin-right: 30px;
+}
+.project-list .item:nth-child(3n) {
+margin-right: 0;
+}
 
 
               /* Footer */
