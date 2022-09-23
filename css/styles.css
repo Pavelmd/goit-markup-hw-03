@@ -19,6 +19,7 @@ body {
   color: var(--primary-text-color);
   font-family: Roboto, sans-serif;
   font-size: 14px;
+  margin: 0px;
 }
 
 .list {
@@ -75,6 +76,8 @@ body {
   font-weight: 500;
   line-height: 1.14;
   letter-spacing: 0.02em;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .contacts .link:hover,
 .contacts .link:focus {
@@ -83,6 +86,7 @@ body {
 .business {
   background-color: #2f303a;
   text-align: center;
+  padding: 200px 0px;
 }
 .business-title {
   color: var(--secondary-text-color);
@@ -132,7 +136,7 @@ body {
 
   border: 1px solid transparent;
   border-radius: 4px;
-  margin-bottom: 50px;
+ 
   display: inline-block;
   align-items: center;
   text-align: center;
@@ -346,6 +350,7 @@ p {
 .button-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 50px;
 }
 
 .button-list .item:not(:last-child) {
@@ -363,6 +368,12 @@ p {
 .name-project {
   padding: 20px 24px;
   border: 1px solid #eeeeee;
+}
+.name {
+  margin-bottom: 4px;
+}
+.section-priority {
+  padding-bottom: 0px;
 }
 
 /* Footer */
